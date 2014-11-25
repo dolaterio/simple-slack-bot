@@ -15,4 +15,4 @@ ADD bot.coffee /opt/bot/bot.coffee
 
 WORKDIR /opt/bot
 
-CMD bash
+CMD ["coffee", "bot.coffee"]
