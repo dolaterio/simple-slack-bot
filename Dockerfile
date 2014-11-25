@@ -15,6 +15,4 @@ ADD bot.coffee /opt/bot/bot.coffee
 
 WORKDIR /opt/bot
 
-RUN npm install
-
 CMD bash
